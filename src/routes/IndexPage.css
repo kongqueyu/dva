@@ -1,0 +1,119 @@
+.wrap{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsTitle{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.tpList {
+  border-bottom: 1px solid #f0f0f0;
+  position: relative;
+  padding-bottom: 25px;
+}
+.tpList .tpWrap {
+  padding-top: 15px;
+}
+.head .tpList .pic, .major .tpList .pic {
+  height: 88px;
+}
+.tpList .pic {
+  margin: 0 19px 0 0;
+  width: 120px;
+  height: 96px;
+  position: relative;
+}
+.tpList .pic {
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+  display: inline;
+  text-align: center;
+}
+.tpList .tpWrap .picto {
+  width: 120px;
+  height: 96px;
+  vertical-align: bottom;
+}
+.head img, .news img, .military img, .society img, .history img, .media img, .gongyi img, .city img, .coopgov img {
+  -webkit-transition: transform .2s ease-out;
+  -moz-transition: transform .2s ease-out;
+  -ms-transition: transform .2s ease-out;
+  -o-transition: transform .2s ease-out;
+  transition: transform .2s ease-out;
+}
+.tpList img {
+  border: 0;
+}
+.tpList img:hover{
+  transform: scale(1.1);
+}
+a {
+  outline: 0;
+  color: #222;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.head .tpList .tpWrap .text, .major .tpList .tpWrap .text {
+  height: 88px;
+}
+.tpList em {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  display: inline-block;
+}
+address, cite, dfn, em, var {
+  font-style: normal;
+}
+.tpList .tpWrap .text {
+  margin-left: 139px;
+  position: relative;
+  height: 96px;
+}
+.tpList .tpWrap .text .st {
+  bottom: -3px;
+}
+.head .st {
+  height: 21px;
+}
+.st {
+  position: absolute;
+  left: 0;
+  bottom: 13px;
+  width: 100%;
+}
+.btns {
+  width: 118px;
+  height: 16px;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+.discuzBtn {
+  margin-left: 16px;
+  padding: 0 5px 0 20px;
+  font-size: 14px;
+  color: #d3d3d3;
+  line-height: 14px;
+  height: 16px;
+  display: none;
+  background: url(http://mat1.gtimg.com/news/skeetershi/news_index/img/icons.png) no-repeat 0px -33px;
+}
+.shareBtn {
+  width: 19px;
+  height: 15px;
+  background: url(http://mat1.gtimg.com/news/skeetershi/news_index/img/icons.png) no-repeat 0 -33px;
+  margin-left: 9px;
+  position: relative;
+}
+.discuzBtn, .shareBtn {
+  float: right;
+  display: inline;
+  cursor: pointer;
+}
